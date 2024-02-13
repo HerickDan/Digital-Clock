@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio Digital </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="relogio">
+    <div id="linhaRelogio">
+        <article  class="relogioComponente">
+            <p id="hora" class="paragrafo">00</p>
+             <p class="paragrafo">hora</p>
+        </article>
+        <article  class="relogioComponente" id="componenteMinuto">
+            <p id="minuto" class="paragrafo">00</p>
+        <p class="paragrafo">minutos</p>
+        </article>
+        <article  class="relogioComponente" id="componenteSegundo">
+            <p id="segundo" class="paragrafo">00</p>
+            <p class="paragrafo">segundos</p>
+    </article>
+    </div>
+    <div id="botoes">  
+    <button onclick="iniciar()" class="botao">
+        Iniciar
+    </button>
+    <button onclick="resetar()" class="botao">Resetar</button>
+    <button onclick="pausar()" class="botao">Pausar</button></div>
+  
+    </section>
+
+<script src="script.js"></script>
+</body>
+</html>
